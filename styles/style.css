@@ -4,3 +4,34 @@
     margin: 0;
     padding: 0;
 }
+
+.content{
+    width: 80%;
+    max-width: 1320px;
+}
+
+.banner {
+    margin: 50px auto 100px;
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    text-align: center;
+    color: #FFF;
+    font-family: 'Merriweather', serif;
+}
+
+.banner-description {
+    padding: 177px 300px;
+    width: 600px;
+}
+
+.banner p {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.banner h2 {
+    font-size: 72px;
+    font-weight: 900;
+}
