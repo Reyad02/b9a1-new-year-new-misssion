@@ -168,7 +168,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 110px;
+    gap: 5%;
 }
 
 .new-best-offer {
@@ -454,4 +454,9 @@ hr {
 
 .first-footer-part-2 p img {
     vertical-align: middle;
+}
+
+.web{
+    cursor: pointer;
+
 }
