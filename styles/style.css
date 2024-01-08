@@ -140,6 +140,7 @@
 }
 
 .primary-btn {
+    margin-top: 42px;
     border-radius: 8px;
     background: #F00;
     display: inline-flex;
@@ -151,4 +152,61 @@
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
+}
+
+/* comming-soon-offer part */
+.comming-soon-offer {
+    margin: 0 auto 100px;
+}
+
+.comming-soon-offer-contents {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 110px;
+}
+
+.new-best-offer {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.comming-soon-offer-content-1 {
+    width: 60%;
+}
+
+.comming-soon-offer-content-1>h3 {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 14px 0 22px;
+}
+
+.new-best-offer-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.comming-soon-offer-content-2 {
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 30px;
+    width: 60%;
+}
+
+.year {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.para {
+    margin: 16px 0 38px;
 }
