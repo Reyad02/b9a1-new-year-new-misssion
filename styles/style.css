@@ -210,3 +210,121 @@
 .para {
     margin: 16px 0 38px;
 }
+
+
+/* holiday-offer */
+/* .holiday-offer{
+    margin: 0 auto 100px;
+}
+.holiday-offer p, h2{
+    text-align: center;
+}
+
+.holiday-offer-description {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.holiday-offer-para{
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+font-size: 20px;
+font-weight: 500;
+}
+
+.holiday-offer-heading{
+    color: #070211;;
+    font-family: 'Merriweather', serif;
+font-size: 60px;
+font-weight: 900;
+margin: 14px 0 22px;
+}
+
+.holiday-offer-heading > span{
+    color: #F00;
+
+
+}
+
+.holiday-offer-description{
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: 'Inter', sans-serif;
+font-size: 16px;
+font-weight: 500;
+}
+
+.joy{
+    width: 600px;
+
+}
+.holiday-offer-img{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.discount{
+    background-image: url('../resources/Rectangle\ 1.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: right;
+ 
+}
+
+.discount > img{
+}
+
+.joy-back{
+    background-image: url('../resources/Rectangle\ 2.png');
+    margin-top: 50%;
+
+} */
+
+
+
+/* offer items */
+.offer-items {
+    margin: 0 auto 100px;
+}
+
+.offer-items-row-1,
+.offer-items-row-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-items-1 {
+    width: 32%
+}
+
+.offer-items-para {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.offer-items-heading {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 10px 0 16px;
+
+}
+
+.offer-items-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    width: 60%;
+    margin-bottom: 36px;
+}
+
+.offer-items-row-2 {
+    margin-top: 20px;
+}
