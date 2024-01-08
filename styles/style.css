@@ -328,3 +328,63 @@ font-weight: 500;
 .offer-items-row-2 {
     margin-top: 20px;
 }
+
+
+
+
+/* subscribe part */
+.subscribe {
+    margin: 0 auto 100px;
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding: 20px 0;
+}
+
+.subs-heading {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 14px 0 18px;
+}
+
+.subs-para {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    width: 52%;
+    margin: 0 auto;
+}
+
+.subs-option {
+    display: flex;
+    justify-content: center;
+    margin: 36px 0 40px;
+}
+
+.subs-option>input[type='email'] {
+    border-radius: 50px 0 0 50px;
+    background: #FFF;
+    border: none;
+    padding: 20px 20px;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    width: 30%;
+}
+
+.subs-option>input[type='submit'] {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: none;
+    padding: 20px 20px;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
