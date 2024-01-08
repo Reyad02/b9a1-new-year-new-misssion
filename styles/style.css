@@ -93,7 +93,7 @@
 .about-party {
     color: rgba(255, 255, 255, 0.80);
     font-family: 'Inter', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     margin: 18px 0 36px;
 }
@@ -105,10 +105,13 @@
     font-weight: 700;
     text-transform: uppercase;
     padding-left: 24px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
 
 .party-celebration img {
-    padding: 30px 100px 30px 30px;
+    padding: 50px 80px 30px 40px;
     width: 65%;
 }
 
@@ -209,7 +212,7 @@
 }
 
 .para {
-    margin: 16px 0 38px;
+    margin: 10px 0 10px;
 }
 
 
@@ -297,7 +300,16 @@ font-weight: 500;
 }
 
 .row-items-1 {
-    width: 32%
+    width: 32%;
+    cursor: pointer;
+}
+
+.row-items-1:hover {
+    /* width: 32% */
+    color: #070211;
+    opacity: 0.3;
+    
+
 }
 
 .offer-items-para {
@@ -340,6 +352,10 @@ font-weight: 500;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
     padding: 20px 0;
+}
+
+.subs-part{
+    padding-top: 20px;
 }
 
 .subs-heading {
