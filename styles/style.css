@@ -107,7 +107,48 @@
     padding-left: 24px;
 }
 
-.party-celebration img{
+.party-celebration img {
     padding: 30px 100px 30px 30px;
     width: 65%;
+}
+
+
+/* party info */
+.party-info {
+    margin: 50px auto 100px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: #070211;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 16px;
+
+}
+
+.party-info-background {
+    padding: 100px 0;
+}
+
+.party-info-background p {
+    padding: 12px 0;
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.red-part {
+    color: #F00;
+}
+
+.primary-btn {
+    border-radius: 8px;
+    background: #F00;
+    display: inline-flex;
+    padding: 14px 28px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
